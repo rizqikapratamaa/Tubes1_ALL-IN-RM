@@ -8,12 +8,6 @@ from game.bot_handler import BotHandler
 from game.logic.random import RandomLogic
 from game.util import *
 from game.logic.base import BaseLogic
-from game.logic.bot import Qika
-from game.logic.tes import Smodeng
-from game.logic.heuristik import Heuristik
-from game.logic.maha import Maha
-from game.logic.maha2 import Maha2
-from game.logic.tesla import Tesla
 from game.logic.manhattan import Manhattan
 
 init()
@@ -21,10 +15,6 @@ BASE_URL = "http://localhost:3000/api"
 DEFAULT_BOARD_ID = 1
 CONTROLLERS = {
     "Random": RandomLogic,
-    "Qika": Qika,
-    "Heuristik" : Heuristik,
-    "Maha" : Maha,
-    "Tesla" : Tesla,
     "Manhattan" : Manhattan,
 }
 
