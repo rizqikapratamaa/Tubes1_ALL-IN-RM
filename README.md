@@ -91,7 +91,7 @@ Requirement yang Harus Di-install :
 
 1. Download source code (.zip) pada source code repository ini (https://github.com/rizqikapratamaa/Tubes1_ALL-IN-RM).
 2. Extract zip tersebut, lalu masuk ke folder hasil extractnya dan buka terminal.
-3. Masuk ke root directory dari project.
+3. Masuk ke src directory dari project.
 4. Install dependencies menggunakan pip.
 
 ```pip install -r requirements.txt```
